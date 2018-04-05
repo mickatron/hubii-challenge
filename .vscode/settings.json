@@ -1,0 +1,15 @@
+{
+  "cSpell.words": [
+    "proptypes",
+    "hubii",
+    "stockcharts",
+    "localforage",
+    "BITSTAMP",
+    "ohlcv"
+  ],
+  "editor.rulers": [
+    100
+  ],
+  "editor.insertSpaces": true,
+  "editor.tabSize": 2,
+}

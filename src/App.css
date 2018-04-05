@@ -1,0 +1,28 @@
+.App {
+  width: 94%;
+  padding: 3%;
+}
+
+.App__Chart {
+  border-color: #ccc;
+  border-style: solid;
+  border-width: 0 1px 1px 1px; 
+  overflow:auto
+}
+
+.App__error  {
+  margin-top: 0;
+  width: 60%;
+  margin: 64px auto;
+  text-align: center;
+  color: #cb3837;
+  border: 1px solid #cb3837;
+}
+
+.App__loading  {
+  margin-top: 0;
+  width: 60%;
+  margin: 64px auto;
+  text-align: center;
+  border: 1px solid #ccc;
+}

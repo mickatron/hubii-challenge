@@ -1,0 +1,890 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chart renders a snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <CandleStickChart
+    data={
+        Array [
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+            Object {
+              "close": 25.710416,
+              "date": 2018-03-25T13:00:00.000Z,
+              "high": 25.835021381744056,
+              "low": 25.411360259406774,
+              "open": 25.436282332605284,
+              "volume": 38409100,
+            },
+          ]
+    }
+    ratio={undefined}
+    width={undefined}
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Chart
+        flipYScale={false}
+        id={1}
+        onContextMenu={[Function]}
+        origin={
+                Array [
+                        0,
+                        0,
+                      ]
+        }
+        padding={0}
+        yExtents={[Function]}
+        yPan={true}
+        yPanEnabled={false}
+        yScale={[Function]}
+>
+        <XAxis
+                axisAt="bottom"
+                className="react-stockcharts-x-axis"
+                domainClassName="react-stockcharts-axis-domain"
+                fill="none"
+                fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif"
+                fontSize={12}
+                fontWeight={400}
+                getMouseDelta={[Function]}
+                innerTickSize={5}
+                opacity={1}
+                orient="bottom"
+                outerTickSize={0}
+                showDomain={true}
+                showTickLabel={true}
+                showTicks={true}
+                stroke="#000000"
+                strokeWidth={1}
+                tickPadding={6}
+                tickStroke="#000000"
+                tickStrokeOpacity={1}
+                ticks={6}
+                xZoomHeight={25}
+                zoomEnabled={true}
+        />
+        <YAxis
+                axisAt="left"
+                className="react-stockcharts-y-axis"
+                domainClassName="react-stockcharts-axis-domain"
+                fill="none"
+                fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif"
+                fontSize={12}
+                fontWeight={400}
+                getMouseDelta={[Function]}
+                innerTickSize={5}
+                opacity={1}
+                orient="left"
+                outerTickSize={0}
+                showDomain={true}
+                showTickLabel={true}
+                showTicks={true}
+                stroke="#FFFFFF"
+                strokeWidth={1}
+                tickPadding={6}
+                tickStroke="#000000"
+                tickStrokeOpacity={1}
+                ticks={5}
+                yZoomWidth={40}
+                zoomEnabled={true}
+        />
+        <CandlestickSeries
+                candleClassName="react-stockcharts-candlestick-candle"
+                candleStrokeWidth={0.5}
+                className="react-stockcharts-candlestick"
+                classNames={[Function]}
+                clip={true}
+                fill={[Function]}
+                opacity={0.5}
+                stroke="#000000"
+                wickClassName="react-stockcharts-candlestick-wick"
+                wickStroke="#000000"
+                width={[Function]}
+                widthRatio={0.8}
+                yAccessor={[Function]}
+        />
+</Chart>,
+      "clamp": false,
+      "className": "react-stockchart",
+      "data": Array [
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+        Object {
+          "close": 25.710416,
+          "date": 2018-03-25T13:00:00.000Z,
+          "high": 25.835021381744056,
+          "low": 25.411360259406774,
+          "open": 25.436282332605284,
+          "volume": 38409100,
+        },
+      ],
+      "defaultFocus": true,
+      "disableInteraction": false,
+      "displayXAccessor": [Function],
+      "flipXScale": false,
+      "height": 400,
+      "maintainPointsPerPixelOnResize": true,
+      "margin": Object {
+        "bottom": 30,
+        "left": 50,
+        "right": 50,
+        "top": 10,
+      },
+      "minPointsPerPxThreshold": 0.01,
+      "mouseMoveEvent": true,
+      "onLoadMore": [Function],
+      "onSelect": [Function],
+      "padding": 0,
+      "panEvent": true,
+      "pointsPerPxThreshold": 2,
+      "postCalculator": [Function],
+      "ratio": undefined,
+      "seriesName": "HubiiChallenge",
+      "type": "svg",
+      "useCrossHairStyleCursor": true,
+      "width": undefined,
+      "xAccessor": [Function],
+      "xExtents": Array [
+        2018-03-25T13:00:00.000Z,
+        undefined,
+      ],
+      "xScale": [Function],
+      "zIndex": 1,
+      "zoomAnchor": [Function],
+      "zoomEvent": true,
+      "zoomMultiplier": 1.1,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <XAxis
+            axisAt="bottom"
+            className="react-stockcharts-x-axis"
+            domainClassName="react-stockcharts-axis-domain"
+            fill="none"
+            fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif"
+            fontSize={12}
+            fontWeight={400}
+            getMouseDelta={[Function]}
+            innerTickSize={5}
+            opacity={1}
+            orient="bottom"
+            outerTickSize={0}
+            showDomain={true}
+            showTickLabel={true}
+            showTicks={true}
+            stroke="#000000"
+            strokeWidth={1}
+            tickPadding={6}
+            tickStroke="#000000"
+            tickStrokeOpacity={1}
+            ticks={6}
+            xZoomHeight={25}
+            zoomEnabled={true}
+/>,
+          <YAxis
+            axisAt="left"
+            className="react-stockcharts-y-axis"
+            domainClassName="react-stockcharts-axis-domain"
+            fill="none"
+            fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif"
+            fontSize={12}
+            fontWeight={400}
+            getMouseDelta={[Function]}
+            innerTickSize={5}
+            opacity={1}
+            orient="left"
+            outerTickSize={0}
+            showDomain={true}
+            showTickLabel={true}
+            showTicks={true}
+            stroke="#FFFFFF"
+            strokeWidth={1}
+            tickPadding={6}
+            tickStroke="#000000"
+            tickStrokeOpacity={1}
+            ticks={5}
+            yZoomWidth={40}
+            zoomEnabled={true}
+/>,
+          <CandlestickSeries
+            candleClassName="react-stockcharts-candlestick-candle"
+            candleStrokeWidth={0.5}
+            className="react-stockcharts-candlestick"
+            classNames={[Function]}
+            clip={true}
+            fill={[Function]}
+            opacity={0.5}
+            stroke="#000000"
+            wickClassName="react-stockcharts-candlestick-wick"
+            wickStroke="#000000"
+            width={[Function]}
+            widthRatio={0.8}
+            yAccessor={[Function]}
+/>,
+        ],
+        "flipYScale": false,
+        "id": 1,
+        "onContextMenu": [Function],
+        "origin": Array [
+          0,
+          0,
+        ],
+        "padding": 0,
+        "yExtents": [Function],
+        "yPan": true,
+        "yPanEnabled": false,
+        "yScale": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "axisAt": "bottom",
+            "className": "react-stockcharts-x-axis",
+            "domainClassName": "react-stockcharts-axis-domain",
+            "fill": "none",
+            "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "getMouseDelta": [Function],
+            "innerTickSize": 5,
+            "opacity": 1,
+            "orient": "bottom",
+            "outerTickSize": 0,
+            "showDomain": true,
+            "showTickLabel": true,
+            "showTicks": true,
+            "stroke": "#000000",
+            "strokeWidth": 1,
+            "tickPadding": 6,
+            "tickStroke": "#000000",
+            "tickStrokeOpacity": 1,
+            "ticks": 6,
+            "xZoomHeight": 25,
+            "zoomEnabled": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "axisAt": "left",
+            "className": "react-stockcharts-y-axis",
+            "domainClassName": "react-stockcharts-axis-domain",
+            "fill": "none",
+            "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+            "fontSize": 12,
+            "fontWeight": 400,
+            "getMouseDelta": [Function],
+            "innerTickSize": 5,
+            "opacity": 1,
+            "orient": "left",
+            "outerTickSize": 0,
+            "showDomain": true,
+            "showTickLabel": true,
+            "showTicks": true,
+            "stroke": "#FFFFFF",
+            "strokeWidth": 1,
+            "tickPadding": 6,
+            "tickStroke": "#000000",
+            "tickStrokeOpacity": 1,
+            "ticks": 5,
+            "yZoomWidth": 40,
+            "zoomEnabled": true,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "candleClassName": "react-stockcharts-candlestick-candle",
+            "candleStrokeWidth": 0.5,
+            "className": "react-stockcharts-candlestick",
+            "classNames": [Function],
+            "clip": true,
+            "fill": [Function],
+            "opacity": 0.5,
+            "stroke": "#000000",
+            "wickClassName": "react-stockcharts-candlestick-wick",
+            "wickStroke": "#000000",
+            "width": [Function],
+            "widthRatio": 0.8,
+            "yAccessor": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Chart
+          flipYScale={false}
+          id={1}
+          onContextMenu={[Function]}
+          origin={
+                    Array [
+                              0,
+                              0,
+                            ]
+          }
+          padding={0}
+          yExtents={[Function]}
+          yPan={true}
+          yPanEnabled={false}
+          yScale={[Function]}
+>
+          <XAxis
+                    axisAt="bottom"
+                    className="react-stockcharts-x-axis"
+                    domainClassName="react-stockcharts-axis-domain"
+                    fill="none"
+                    fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif"
+                    fontSize={12}
+                    fontWeight={400}
+                    getMouseDelta={[Function]}
+                    innerTickSize={5}
+                    opacity={1}
+                    orient="bottom"
+                    outerTickSize={0}
+                    showDomain={true}
+                    showTickLabel={true}
+                    showTicks={true}
+                    stroke="#000000"
+                    strokeWidth={1}
+                    tickPadding={6}
+                    tickStroke="#000000"
+                    tickStrokeOpacity={1}
+                    ticks={6}
+                    xZoomHeight={25}
+                    zoomEnabled={true}
+          />
+          <YAxis
+                    axisAt="left"
+                    className="react-stockcharts-y-axis"
+                    domainClassName="react-stockcharts-axis-domain"
+                    fill="none"
+                    fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif"
+                    fontSize={12}
+                    fontWeight={400}
+                    getMouseDelta={[Function]}
+                    innerTickSize={5}
+                    opacity={1}
+                    orient="left"
+                    outerTickSize={0}
+                    showDomain={true}
+                    showTickLabel={true}
+                    showTicks={true}
+                    stroke="#FFFFFF"
+                    strokeWidth={1}
+                    tickPadding={6}
+                    tickStroke="#000000"
+                    tickStrokeOpacity={1}
+                    ticks={5}
+                    yZoomWidth={40}
+                    zoomEnabled={true}
+          />
+          <CandlestickSeries
+                    candleClassName="react-stockcharts-candlestick-candle"
+                    candleStrokeWidth={0.5}
+                    className="react-stockcharts-candlestick"
+                    classNames={[Function]}
+                    clip={true}
+                    fill={[Function]}
+                    opacity={0.5}
+                    stroke="#000000"
+                    wickClassName="react-stockcharts-candlestick-wick"
+                    wickStroke="#000000"
+                    width={[Function]}
+                    widthRatio={0.8}
+                    yAccessor={[Function]}
+          />
+</Chart>,
+        "clamp": false,
+        "className": "react-stockchart",
+        "data": Array [
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+          Object {
+            "close": 25.710416,
+            "date": 2018-03-25T13:00:00.000Z,
+            "high": 25.835021381744056,
+            "low": 25.411360259406774,
+            "open": 25.436282332605284,
+            "volume": 38409100,
+          },
+        ],
+        "defaultFocus": true,
+        "disableInteraction": false,
+        "displayXAccessor": [Function],
+        "flipXScale": false,
+        "height": 400,
+        "maintainPointsPerPixelOnResize": true,
+        "margin": Object {
+          "bottom": 30,
+          "left": 50,
+          "right": 50,
+          "top": 10,
+        },
+        "minPointsPerPxThreshold": 0.01,
+        "mouseMoveEvent": true,
+        "onLoadMore": [Function],
+        "onSelect": [Function],
+        "padding": 0,
+        "panEvent": true,
+        "pointsPerPxThreshold": 2,
+        "postCalculator": [Function],
+        "ratio": undefined,
+        "seriesName": "HubiiChallenge",
+        "type": "svg",
+        "useCrossHairStyleCursor": true,
+        "width": undefined,
+        "xAccessor": [Function],
+        "xExtents": Array [
+          2018-03-25T13:00:00.000Z,
+          undefined,
+        ],
+        "xScale": [Function],
+        "zIndex": 1,
+        "zoomAnchor": [Function],
+        "zoomEvent": true,
+        "zoomMultiplier": 1.1,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <XAxis
+              axisAt="bottom"
+              className="react-stockcharts-x-axis"
+              domainClassName="react-stockcharts-axis-domain"
+              fill="none"
+              fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif"
+              fontSize={12}
+              fontWeight={400}
+              getMouseDelta={[Function]}
+              innerTickSize={5}
+              opacity={1}
+              orient="bottom"
+              outerTickSize={0}
+              showDomain={true}
+              showTickLabel={true}
+              showTicks={true}
+              stroke="#000000"
+              strokeWidth={1}
+              tickPadding={6}
+              tickStroke="#000000"
+              tickStrokeOpacity={1}
+              ticks={6}
+              xZoomHeight={25}
+              zoomEnabled={true}
+/>,
+            <YAxis
+              axisAt="left"
+              className="react-stockcharts-y-axis"
+              domainClassName="react-stockcharts-axis-domain"
+              fill="none"
+              fontFamily="Helvetica Neue, Helvetica, Arial, sans-serif"
+              fontSize={12}
+              fontWeight={400}
+              getMouseDelta={[Function]}
+              innerTickSize={5}
+              opacity={1}
+              orient="left"
+              outerTickSize={0}
+              showDomain={true}
+              showTickLabel={true}
+              showTicks={true}
+              stroke="#FFFFFF"
+              strokeWidth={1}
+              tickPadding={6}
+              tickStroke="#000000"
+              tickStrokeOpacity={1}
+              ticks={5}
+              yZoomWidth={40}
+              zoomEnabled={true}
+/>,
+            <CandlestickSeries
+              candleClassName="react-stockcharts-candlestick-candle"
+              candleStrokeWidth={0.5}
+              className="react-stockcharts-candlestick"
+              classNames={[Function]}
+              clip={true}
+              fill={[Function]}
+              opacity={0.5}
+              stroke="#000000"
+              wickClassName="react-stockcharts-candlestick-wick"
+              wickStroke="#000000"
+              width={[Function]}
+              widthRatio={0.8}
+              yAccessor={[Function]}
+/>,
+          ],
+          "flipYScale": false,
+          "id": 1,
+          "onContextMenu": [Function],
+          "origin": Array [
+            0,
+            0,
+          ],
+          "padding": 0,
+          "yExtents": [Function],
+          "yPan": true,
+          "yPanEnabled": false,
+          "yScale": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "axisAt": "bottom",
+              "className": "react-stockcharts-x-axis",
+              "domainClassName": "react-stockcharts-axis-domain",
+              "fill": "none",
+              "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+              "fontSize": 12,
+              "fontWeight": 400,
+              "getMouseDelta": [Function],
+              "innerTickSize": 5,
+              "opacity": 1,
+              "orient": "bottom",
+              "outerTickSize": 0,
+              "showDomain": true,
+              "showTickLabel": true,
+              "showTicks": true,
+              "stroke": "#000000",
+              "strokeWidth": 1,
+              "tickPadding": 6,
+              "tickStroke": "#000000",
+              "tickStrokeOpacity": 1,
+              "ticks": 6,
+              "xZoomHeight": 25,
+              "zoomEnabled": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "axisAt": "left",
+              "className": "react-stockcharts-y-axis",
+              "domainClassName": "react-stockcharts-axis-domain",
+              "fill": "none",
+              "fontFamily": "Helvetica Neue, Helvetica, Arial, sans-serif",
+              "fontSize": 12,
+              "fontWeight": 400,
+              "getMouseDelta": [Function],
+              "innerTickSize": 5,
+              "opacity": 1,
+              "orient": "left",
+              "outerTickSize": 0,
+              "showDomain": true,
+              "showTickLabel": true,
+              "showTicks": true,
+              "stroke": "#FFFFFF",
+              "strokeWidth": 1,
+              "tickPadding": 6,
+              "tickStroke": "#000000",
+              "tickStrokeOpacity": 1,
+              "ticks": 5,
+              "yZoomWidth": 40,
+              "zoomEnabled": true,
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "candleClassName": "react-stockcharts-candlestick-candle",
+              "candleStrokeWidth": 0.5,
+              "className": "react-stockcharts-candlestick",
+              "classNames": [Function],
+              "clip": true,
+              "fill": [Function],
+              "opacity": 0.5,
+              "stroke": "#000000",
+              "wickClassName": "react-stockcharts-candlestick-wick",
+              "wickStroke": "#000000",
+              "width": [Function],
+              "widthRatio": 0.8,
+              "yAccessor": [Function],
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
