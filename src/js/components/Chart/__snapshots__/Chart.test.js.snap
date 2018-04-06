@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <CandleStickChart
+    className={undefined}
     data={
         Array [
             Object {
@@ -187,7 +188,7 @@ ShallowWrapper {
         />
 </Chart>,
       "clamp": false,
-      "className": "react-stockchart",
+      "className": "Chart",
       "data": Array [
         Object {
           "close": 25.710416,
@@ -577,7 +578,7 @@ ShallowWrapper {
           />
 </Chart>,
         "clamp": false,
-        "className": "react-stockchart",
+        "className": "Chart",
         "data": Array [
           Object {
             "close": 25.710416,

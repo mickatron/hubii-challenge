@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
-import { fitWidth } from 'react-stockcharts/lib/helper';
 import CandlestickChart from 'js/components/Chart/Chart';
+import { fitWidth } from 'react-stockcharts/lib/helper';
 import parseCoinAPIData from 'js/components/Chart/parseCoinAPIData';
 import SymbolSelector from 'js/components/SymbolSelector/SymbolSelector';
 import { getSymbolData } from 'js/api/CoinAPIRequest';
-
 import './App.css';
+
+const FitWidthChart = fitWidth(CandlestickChart);
 
 export default class App extends Component {
   state = {
@@ -65,8 +66,8 @@ export default class App extends Component {
           {error && <div className="App__error"><p>{error}</p></div>}
           {!error && loading &&
             <div className="App__loading"><p>Loading Chart Data...</p></div>}
-          {data &&
-            fitWidth(<CandlestickChart data={data} />)
+          {data && !loading &&
+            <FitWidthChart data={data} />
           }
         </div>
       </div>

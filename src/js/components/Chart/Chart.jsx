@@ -17,7 +17,7 @@ export default class CandleStickChart extends React.Component {
     className: classNameType,
     data: PropTypes.arrayOf(PropTypes.shape({
       close: PropTypes.number.isRequired, // 25.710416
-      date: PropTypes.string.isRequired, // "Mon Jan 04 2010 00:00:00 GMT+1100...."
+      date: PropTypes.object.isRequired, // "Mon Jan 04 2010 00:00:00 GMT+1100...."
       high: PropTypes.number.isRequired, // 25.835021381744056
       low: PropTypes.number.isRequired, // 25.411360259406774
       open: PropTypes.number.isRequired, // 25.436282332605284
@@ -40,10 +40,10 @@ export default class CandleStickChart extends React.Component {
       ratio,
       width,
     } = this.props;
-    const xAccessor = d => d.date;
+    const xAccessor = d => { if (d) return d.date; };
     const xExtents = [
       xAccessor(last(data)),
-      xAccessor(-data[data.length]),
+      xAccessor(data[data.length - 100]),
     ];
 
     return (
@@ -59,6 +59,7 @@ export default class CandleStickChart extends React.Component {
         seriesName="HubiiChallenge"
         data={data}
         displayXAccessor={xAccessor}
+        xAccessor={xAccessor}
         xScale={scaleTime()}
         xExtents={xExtents}
       >
@@ -71,4 +72,3 @@ export default class CandleStickChart extends React.Component {
     );
   }
 }
-
